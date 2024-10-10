@@ -1,0 +1,261 @@
+.place {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 40px;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 50px;
+
+
+}
+
+.mainline {
+  width: 50px;
+  height: 3px;
+  background-color: #101d6b;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.heading1 {
+  position: relative;
+  top: 40px;
+  font-size: 34px;
+  color: #697891;
+  font-family: 'Inter';
+  right: 7px;
+  font-weight: 800;
+}
+
+.heading2 {
+  opacity: 0.1;
+  font-size: 60px;
+  font-family: 'Inter';
+  color: #0e4d92;
+  
+
+}
+
+body {
+  background-color: #F6F6F6;
+  flex-wrap: wrap;
+
+}
+
+
+.mumbai:hover .users{
+  color:#F6F6F6;
+  opacity: 1;
+}
+.mumbai:hover .listings{
+  color:#F6F6F6;
+  opacity: 1;
+}
+
+.mumbai {
+  background-image: url("assets/Mumbai.jpg");
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 253px;
+  background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%), url("assets/Mumbai.jpg");
+  transition: transform .2s;
+ 
+}
+.mumbai:hover{
+  transform: scale(1.05);
+}
+.puducherry {
+  background-image: url("assets/Puducherry.jpg");
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 253px;
+  background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%), url("assets/Puducherry.jpg");
+  transition: transform .2s;
+ 
+}
+.puducherry:hover .users{
+  color:#F6F6F6;
+  opacity: 1;
+}
+.puducherry:hover .listings{
+  color:#F6F6F6;
+  opacity: 1;
+}
+.puducherry:hover{
+  transform: scale(1.05);
+}
+
+.bengaluru {
+  background-image: url("assets/Bengaluru.jpg");
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 253px;
+  background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%), url("assets/Bengaluru.jpg");
+  transition: transform .2s;
+  
+
+}
+.bengaluru:hover .users{
+  color:#F6F6F6;
+  opacity: 1;
+}
+.bengaluru:hover .listings{
+  color:#F6F6F6;
+  opacity: 1;
+}
+.bengaluru:hover{
+  transform: scale(1.05);
+}
+
+.coimbatore {
+  background-image: url("assets/Coimbatore.jpg");
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 253px;
+  background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%), url("assets/Coimbatore.jpg");
+  transition: transform .2s;
+ 
+}
+.coimbatore:hover .users{
+  color:#F6F6F6;
+  opacity: 1;
+}
+.coimbatore:hover .listings{
+  color:#F6F6F6;
+  opacity: 1;
+}
+.coimbatore:hover{
+  transform: scale(1.05);
+}
+
+.chennai {
+  background-image: url("assets/Chennai.jpg");
+  background-repeat: no-repeat;
+  width: 766px;
+  height: 253px;
+  background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%), url("assets/Chennai.jpg");
+  transition: transform .2s;
+ 
+}
+.chennai:hover .users{
+  color:#F6F6F6;
+  opacity: 1;
+}
+.chennai:hover .listings{
+  color:#F6F6F6;
+  opacity: 1;
+}
+.chennai:hover{
+  transform: scale(1.05);
+}
+
+
+.pinwrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 215px;
+  
+
+
+
+}
+
+.button {
+  color: white;
+  text-align: start;
+  border-radius: 4px;
+  padding: 13px 15px;
+  margin: 30px 20px;
+  align-items: flex-start;
+  font-size: 12px;
+  background-color: #101d6b;
+  font-weight: 500;
+  font-family: 'Inter';
+  width: 65px;
+  box-shadow: 0px 0px 20px#F6F6F6;
+  
+
+
+
+
+}
+
+.name {
+  font-family: 'Inter';
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  align-items: flex-end;
+  justify-content: end;
+  cursor: pointer;
+}
+.name:hover{
+  color:#4db7fe
+}
+
+.lower {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.minor_line {
+  width: 35px;
+  height: 2px;
+  background-color: #4db7fe;
+  position: relative;
+  bottom: 17px;
+  left: 20px;
+}
+
+.users {
+  padding-left: 20px;
+  font-family: 'Inter';
+  color: white;
+  font-size: 13px;
+  opacity: 0.7;
+ 
+}
+
+
+.listings {
+  font-family: 'Inter';
+  padding-right: 23px;
+  color: white;
+  font-size: 13px;
+  opacity: 0.7;
+}
+.buttonstyle{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 550px;
+  cursor: pointer;
+}
+.button2{
+  padding: 10px;
+  font-family: 'Inter';
+  background-color: #101d6b;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  height: 20px;
+  align-items: center; 
+  margin: 30px 0 0 0;
+ 
+}
+.button2:hover{
+  background-color:#4db7fe;
+}
+
+i{
+color: #4db7fe;
+}
